@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSerializebleElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SerializebleElement xsi:type="SerializebleGrid">
+    <ID>0</ID>
+    <StartPoint>312, 72</StartPoint>
+    <TypeGrid>ClassElement</TypeGrid>
+    <Width>100</Width>
+    <GridText>
+      <Attributes />
+      <MainParameters>Class</MainParameters>
+      <Operations />
+      <Fonts>
+        <IsAttributesStatic>false</IsAttributesStatic>
+        <IsMainParametersStatic>false</IsMainParametersStatic>
+        <IsOperationsStatic>false</IsOperationsStatic>
+        <IsOperationsAbstract>false</IsOperationsAbstract>
+        <IsAttributesAbstract>false</IsAttributesAbstract>
+        <IsMainParametersAbstract>false</IsMainParametersAbstract>
+      </Fonts>
+    </GridText>
+    <Height>100</Height>
+  </SerializebleElement>
+  <SerializebleElement xsi:type="SerializebleGrid">
+    <ID>1</ID>
+    <StartPoint>987, 293</StartPoint>
+    <TypeGrid>InterfaceElement</TypeGrid>
+    <Width>100</Width>
+    <GridText>
+      <Attributes />
+      <MainParameters>Interface</MainParameters>
+      <Operations />
+      <Fonts>
+        <IsAttributesStatic>false</IsAttributesStatic>
+        <IsMainParametersStatic>false</IsMainParametersStatic>
+        <IsOperationsStatic>false</IsOperationsStatic>
+        <IsOperationsAbstract>false</IsOperationsAbstract>
+        <IsAttributesAbstract>false</IsAttributesAbstract>
+        <IsMainParametersAbstract>false</IsMainParametersAbstract>
+      </Fonts>
+    </GridText>
+    <Height>100</Height>
+  </SerializebleElement>
+  <SerializebleElement xsi:type="SerializebleLine">
+    <ID>2</ID>
+    <ConnectionPointSecond>3</ConnectionPointSecond>
+    <EndPoint>995, 344</EndPoint>
+    <TypeLine>AggregationLine</TypeLine>
+    <Lenght>629.5784303802029</Lenght>
+    <SecondGridID>1</SecondGridID>
+    <Angle>20.939502603202072</Angle>
+    <StartPoint>407, 119</StartPoint>
+    <LineCenterX>92.21078480989854</LineCenterX>
+    <FirstGridID>0</FirstGridID>
+    <ConnectionPointFirst>4</ConnectionPointFirst>
+  </SerializebleElement>
+  <SerializebleElement xsi:type="SerializebleGrid">
+    <ID>3</ID>
+    <StartPoint>404, 458</StartPoint>
+    <TypeGrid>ClassElement</TypeGrid>
+    <Width>100</Width>
+    <GridText>
+      <Attributes />
+      <MainParameters>Class</MainParameters>
+      <Operations />
+      <Fonts>
+        <IsAttributesStatic>false</IsAttributesStatic>
+        <IsMainParametersStatic>false</IsMainParametersStatic>
+        <IsOperationsStatic>false</IsOperationsStatic>
+        <IsOperationsAbstract>false</IsOperationsAbstract>
+        <IsAttributesAbstract>false</IsAttributesAbstract>
+        <IsMainParametersAbstract>false</IsMainParametersAbstract>
+      </Fonts>
+    </GridText>
+    <Height>100</Height>
+  </SerializebleElement>
+  <SerializebleElement xsi:type="SerializebleLine">
+    <ID>5</ID>
+    <ConnectionPointSecond>6</ConnectionPointSecond>
+    <EndPoint>361, 165</EndPoint>
+    <TypeLine>AssociationLine</TypeLine>
+    <Lenght>309.96774025695</Lenght>
+    <SecondGridID>0</SecondGridID>
+    <Angle>-107.2658094950146</Angle>
+    <StartPoint>453, 461</StartPoint>
+    <LineCenterX>298.016129871525</LineCenterX>
+    <FirstGridID>3</FirstGridID>
+    <ConnectionPointFirst>1</ConnectionPointFirst>
+  </SerializebleElement>
+</ArrayOfSerializebleElement>

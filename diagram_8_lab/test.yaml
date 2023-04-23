@@ -1,0 +1,76 @@
+- !grid
+  StartPoint: 312, 72
+  TypeGrid: ClassElement
+  Width: 100
+  GridText:
+    Attributes: ''
+    MainParameters: Class
+    Operations: ''
+    Fonts:
+      IsAttributesStatic: false
+      IsMainParametersStatic: false
+      IsOperationsStatic: false
+      IsOperationsAbstract: false
+      IsAttributesAbstract: false
+      IsMainParametersAbstract: false
+  Height: 100
+  ID: 0
+- !grid
+  StartPoint: 987, 293
+  TypeGrid: InterfaceElement
+  Width: 100
+  GridText:
+    Attributes: ''
+    MainParameters: Interface
+    Operations: ''
+    Fonts:
+      IsAttributesStatic: false
+      IsMainParametersStatic: false
+      IsOperationsStatic: false
+      IsOperationsAbstract: false
+      IsAttributesAbstract: false
+      IsMainParametersAbstract: false
+  Height: 100
+  ID: 1
+- !line
+  ConnectionPointSecond: 3
+  EndPoint: 995, 344
+  TypeLine: AggregationLine
+  Lenght: 629.5784303802029
+  SecondGridID: 1
+  Angle: 20.939502603202072
+  StartPoint: 407, 119
+  LineCenterX: 92.21078480989854
+  FirstGridID: 0
+  ConnectionPointFirst: 4
+  ID: 2
+- !grid
+  StartPoint: 404, 458
+  TypeGrid: ClassElement
+  Width: 100
+  GridText:
+    Attributes: ''
+    MainParameters: Class
+    Operations: ''
+    Fonts:
+      IsAttributesStatic: false
+      IsMainParametersStatic: false
+      IsOperationsStatic: false
+      IsOperationsAbstract: false
+      IsAttributesAbstract: false
+      IsMainParametersAbstract: false
+  Height: 100
+  ID: 3
+- !line
+  ConnectionPointSecond: 6
+  EndPoint: 361, 165
+  TypeLine: AssociationLine
+  Lenght: 309.96774025695
+  SecondGridID: 0
+  Angle: -107.2658094950146
+  StartPoint: 453, 461
+  LineCenterX: 298.016129871525
+  FirstGridID: 3
+  ConnectionPointFirst: 1
+  ID: 5
+
